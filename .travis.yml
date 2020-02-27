@@ -1,9 +1,12 @@
 dist: xenial
 language: python
 python:
-  - "3.7"
+- '3.7'
 install:
-  - pip install -r requirements.txt
+- pip install -r requirements.txt
 script:
-  - otree test public_goods
-  - otree test guess_two_thirds
+- otree test public_goods
+- otree test guess_two_thirds
+env:
+  global:
+    secure: Wz3V4B0eDFZBAef0NltCu4cZoEHN4wg8Me1KtXhkkscmAlOEE9KDhaz8yQN1GbTn+2MPw+c1LlQmE5FpFh+5PydHW2JENbZZs/QewADvdrVYF+lGqA9B9E5rPH/LV2yjkG0pQvoWu7sq8dRldEU/F6sRsPF6mTh7ikTGD/g01ypFMFTxTtlakOXVcIzLPHIYA4T/vfy9MhRXUoryWrO4lBzyuKU28jnLDdKk+6V9wamVhYRByA/lS5BRkLd3PinFJjd23GApcHpCCnc5sY396neJG8WjnU+TSEdlcpelC+i8n1tTqesU9t6fULSkxraviXYMsIKk9n43a9GNgEAdUpW1UnOuS113/AeztPIzL+JqKhdxqcjbfzW1a88cA9IJ+C33uetvggE2zGEMTnCYh4DncYjWRyTtzd2ZhsHBln0tuI1ACMXZKdq22Pd+kYYVEWJD5In38Bm3894xVfAa1+sFuwxtRu0FoQTrYba1FeeAz3D5knUEYpVR3dKaYYonwYLP6GWSONUP8VYIKEOAQDYCYST+02syaQUpQmHFc9qVBkGO/22Lq9m3qogpbfAWIpg9abCbLPCGB1HEzxqQd8rQpndp5HeIQnrDdVfHrnETv3E60BZUb7u4qzNy+6zqVU3RMvRH3yT6/ixEnhuyzwukwz8IoTNgx+PmcZykXPY=
